@@ -94,4 +94,3 @@ If we change this policy, we'll update the effective date above and post the new
 
 Stevie D M Roberts III
 Stevie.sleevetcg@gmail.com
-[POSTAL ADDRESS, optional; ask a lawyer whether one is needed]
