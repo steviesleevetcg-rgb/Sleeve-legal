@@ -24,7 +24,7 @@ Sleeve saves the following **only on your device**, in the app's private storage
 
 - **Your lists.** Your collection, trade binder, chase list, decks and folders. That covers card IDs, quantities, variants, sideboard flags, deck format and hero, the prices you typed in, and copies of card names and images so your lists still show without card data.
 - **Life counter history.** Up to 500 entries per game, plus any player names you type.
-- **Settings.** For example theme, Wi-Fi-only images, spoilers, the games you added, backup reminders, the dates of your last backup and first use, and whether the camera explanation has been shown.
+- **Settings.** For example Wi-Fi-only images, spoilers, the games you added, backup reminders, the dates of your last backup and first use, and whether the camera explanation has been shown.
 - **Temporary caches.** Downloaded card images and card lists, kept to save data.
 
 We can't see this information.
@@ -42,7 +42,7 @@ These only happen when you tap them:
 
 ## 4. Third-party services the app connects to
 
-To load card data and images, Sleeve connects directly from your phone to the services below. Each one receives what any website receives from a visitor: your **IP address**, the request (which card, image or search), and technical details such as the app's user-agent `Sleeve/0.14.0 (unofficial TCG companion app for Android)`. Their own privacy policies apply. We don't control these services or receive anything from them about you.
+To load card data and images, Sleeve connects directly from your phone to the services below. Each one receives what any website receives from a visitor: your **IP address**, the request (which card, image or search), and technical details such as the app's user-agent Sleeve/ followed by the app version number, plus "(unofficial TCG companion app for Android)". Their own privacy policies apply. We don't control these services or receive anything from them about you.
 
 | Service | Why | What it receives beyond the IP address and request |
 |---|---|---|
