@@ -25,6 +25,7 @@ Sleeve saves the following **only on your device**, in the app's private storage
 - **Your lists.** Your collection, trade binder, chase list, decks and folders. That covers card IDs, quantities, variants, sideboard flags, deck format and hero, the prices you typed in, and copies of card names and similar details, plus a link to each card's picture. The picture files themselves aren't saved.
 - **Life counter history.** Up to 500 entries per game, plus any player names you type.
 - **Settings.** For example spoilers, the games you added, backup reminders, the dates of your last backup and first use, and whether the camera explanation has been shown.
+- **Recent searches.** Your last 3 Lookup searches for each game, so you can run them again. They stay on your phone and aren't sent to us.
 - **A small image-link file.** For Lorcana, a small file of image links, kept for up to 24 hours. Card pictures and card data are loaded each time you need them and are held only in the phone's memory while the app is open. They aren't saved on your phone.
 
 We can't see this information.
@@ -38,7 +39,7 @@ These only happen when you tap them:
 - **Back up and export.** "Back up now" creates a file such as `Sleeve backup 2026-11-18.json`, containing your lists and settings. "Export lists" creates CSV, JSON, PDF or spreadsheet files. You decide where the file goes, using Android's share sheet, file picker or print service. Whoever receives it can read it.
 - **QR share codes.** A QR code holds the list's name, card numbers, counts and any prices you typed. It's shown on your screen for another phone to scan. Nothing is uploaded.
 - **Restore and import.** When you pick a file, Sleeve reads only that file.
-- **TCGplayer links.** These open TCGplayer's website in your browser. TCGplayer's own privacy policy applies there.
+- **TCGplayer links.** Tapping 'View on TCGplayer' opens TCGplayer's website in your browser and searches for that card's name, so TCGplayer receives the card name. TCGplayer's own privacy policy applies there.
 
 ## 4. Third-party services the app connects to
 
