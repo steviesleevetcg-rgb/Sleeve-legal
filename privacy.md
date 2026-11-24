@@ -26,7 +26,8 @@ Sleeve saves the following **only on your device**, in the app's private storage
 - **Life counter history.** Up to 500 entries per game, plus any player names you type.
 - **Settings.** For example spoilers, the games you added, backup reminders, the dates of your last backup and first use, and whether the camera explanation has been shown.
 - **Recent searches.** Your last 3 Lookup searches for each game, so you can run them again. They stay on your phone and aren't sent to us.
-- **A small image-link file.** For Lorcana, a small file of image links, kept for up to 24 hours. Card pictures and card data are loaded each time you need them and are held only in the phone's memory while the app is open. They aren't saved on your phone.
+- **A small image-link file.** For Lorcana, a small file of image links, kept for up to 24 hours. Card pictures are loaded each time you need them and are held only in the phone's memory while the app is open. They aren't saved on your phone.
+- **Card data files.** For Flesh and Blood and Disney Lorcana TCG, a compressed copy of the public card list, kept in the app's cache so it doesn't have to be downloaded in full every time. Before using it, Sleeve asks the source whether a newer list exists, so Lookup still needs an internet connection. These files hold only public card information, nothing about you, and Android may delete them if your phone runs low on storage.
 
 We can't see this information.
 
@@ -39,7 +40,7 @@ These only happen when you tap them:
 - **Back up and export.** "Back up now" creates a file such as `Sleeve backup 2026-11-18.json`, containing your lists and settings. "Export lists" creates CSV, JSON, PDF or spreadsheet files. You decide where the file goes, using Android's share sheet, file picker or print service. Whoever receives it can read it.
 - **QR share codes.** A QR code holds the list's name, card numbers, counts and any prices you typed. It's shown on your screen for another phone to scan. Nothing is uploaded.
 - **Restore and import.** When you pick a file, Sleeve reads only that file.
-- **TCGplayer links.** Tapping 'View on TCGplayer' opens TCGplayer's website in your browser and searches for that card's name, so TCGplayer receives the card name. TCGplayer's own privacy policy applies there.
+- **TCGplayer links.** Tapping 'View on TCGplayer' or 'Check Card Value' opens TCGplayer's website in your browser at that card's search or product page, so TCGplayer receives the card name or product number. TCGplayer's own privacy policy applies there.
 
 ## 4. Third-party services the app connects to
 
@@ -47,11 +48,11 @@ Looking up cards and viewing My Cards need an internet connection. The life coun
 
 | Service | Why | What it receives beyond the IP address and request |
 |---|---|---|
-| GitHub (raw.githubusercontent.com) | Flesh and Blood card data each session; a connection check | — |
+| GitHub (raw.githubusercontent.com) | Flesh and Blood card data (downloaded again only when it has changed); a connection check | — |
 | Google (connectivitycheck.gstatic.com) | Checking you're online | — |
 | Legend Story Studios' image host (legendstory-production-s3-public.s3.amazonaws.com, on Amazon Web Services) | Flesh and Blood card images | — |
 | Scryfall (api.scryfall.com and Scryfall's image servers) | Magic card data and images | The **search text you type**; card names; the card IDs in a Magic list when you create or scan a QR share code for it |
-| LorcanaJSON (lorcanajson.org) | Disney Lorcana TCG card data | — |
+| LorcanaJSON (lorcanajson.org) | Disney Lorcana TCG card data (downloaded again only when it has changed) | — |
 | Lorcast (api.lorcast.com, cards.lorcast.io) | Disney Lorcana TCG card images | — |
 | Google ML Kit (used by the QR scanner) | Reading QR share codes on your phone | Google says the camera images and results **stay on your device**. ML Kit sends Google device information (manufacturer, model, OS), app information (package name, version), per-installation identifiers, performance metrics and error codes, which Google uses for diagnostics and usage analytics. See https://developers.google.com/ml-kit/terms |
 
@@ -70,6 +71,7 @@ Sleeve is a general-audience app and is not directed at children under 13. It do
 ## 7. How long data is kept and how to delete it
 
 - **On your device.** Your data stays until you delete it. You can delete lists and entries in the app. To remove everything, uninstall Sleeve or go to Android Settings > Apps > Sleeve > Storage > Clear storage. **Deletion can't be undone**, so back up first if you want a copy.
+- Android Settings > Apps > Sleeve > Storage > Clear cache removes the card data files without touching your lists.
 - **Files you exported or shared.** Delete them wherever you saved or sent them.
 - **Android backup.** Manage or delete it in your Google account or device backup settings.
 - **Third-party services.** They keep their own server logs (for example IP addresses) under their own policies. We can't delete those for you.
