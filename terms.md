@@ -1,6 +1,6 @@
 # Sleeve: TCG Companion — Terms of Use
 
-**Effective date:** November 18, 2026
+**Effective date:** November 24, 2026
 **Developer:** Stevie D M Roberts III ("we", "us")
 **Contact:** Stevie.sleevetcg@gmail.com
 **Website:** https://steviesleevetcg-rgb.github.io/Sleeve-legal/
