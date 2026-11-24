@@ -1,6 +1,6 @@
 # Sleeve: TCG Companion — Privacy Policy
 
-**Effective date:** November 18, 2026
+**Effective date:** November 24, 2026
 **App:** Sleeve: TCG Companion (Android, package `com.stevie.tcgcompanion`)
 **Developer:** Stevie D M Roberts III ("we", "us")
 **Privacy contact:** Stevie.sleevetcg@gmail.com
@@ -22,10 +22,10 @@
 
 Sleeve saves the following **only on your device**, in the app's private storage:
 
-- **Your lists.** Your collection, trade binder, chase list, decks and folders. That covers card IDs, quantities, variants, sideboard flags, deck format and hero, the prices you typed in, and copies of card names and images so your lists still show without card data.
+- **Your lists.** Your collection, trade binder, chase list, decks and folders. That covers card IDs, quantities, variants, sideboard flags, deck format and hero, the prices you typed in, and copies of card names and similar details, plus a link to each card's picture. The picture files themselves aren't saved.
 - **Life counter history.** Up to 500 entries per game, plus any player names you type.
-- **Settings.** For example Wi-Fi-only images, spoilers, the games you added, backup reminders, the dates of your last backup and first use, and whether the camera explanation has been shown.
-- **Temporary caches.** Downloaded card images and card lists, kept to save data.
+- **Settings.** For example spoilers, the games you added, backup reminders, the dates of your last backup and first use, and whether the camera explanation has been shown.
+- **A small image-link file.** For Lorcana, a small file of image links, kept for up to 24 hours. Card pictures and card data are loaded each time you need them and are held only in the phone's memory while the app is open. They aren't saved on your phone.
 
 We can't see this information.
 
@@ -42,7 +42,7 @@ These only happen when you tap them:
 
 ## 4. Third-party services the app connects to
 
-To load card data and images, Sleeve connects directly from your phone to the services below. Each one receives what any website receives from a visitor: your **IP address**, the request (which card, image or search), and technical details such as the app's user-agent Sleeve/ followed by the app version number, plus "(unofficial TCG companion app for Android)". Their own privacy policies apply. We don't control these services or receive anything from them about you.
+Looking up cards and viewing My Cards need an internet connection. The life counter works offline. To load card data and images, Sleeve connects directly from your phone to the services below. Each one receives what any website receives from a visitor: your **IP address**, the request (which card, image or search), and technical details such as the app's user-agent Sleeve/ followed by the app version number, plus "(unofficial TCG companion app for Android)". Their own privacy policies apply. We don't control these services or receive anything from them about you.
 
 | Service | Why | What it receives beyond the IP address and request |
 |---|---|---|
@@ -68,7 +68,7 @@ Sleeve is a general-audience app and is not directed at children under 13. It do
 
 ## 7. How long data is kept and how to delete it
 
-- **On your device.** Your data stays until you delete it. You can delete lists and entries in the app. "Clear image cache" in Settings removes cached images. To remove everything, uninstall Sleeve or go to Android Settings > Apps > Sleeve > Storage > Clear storage. **Deletion can't be undone**, so back up first if you want a copy.
+- **On your device.** Your data stays until you delete it. You can delete lists and entries in the app. To remove everything, uninstall Sleeve or go to Android Settings > Apps > Sleeve > Storage > Clear storage. **Deletion can't be undone**, so back up first if you want a copy.
 - **Files you exported or shared.** Delete them wherever you saved or sent them.
 - **Android backup.** Manage or delete it in your Google account or device backup settings.
 - **Third-party services.** They keep their own server logs (for example IP addresses) under their own policies. We can't delete those for you.
