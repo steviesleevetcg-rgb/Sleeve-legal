@@ -1,6 +1,6 @@
 # Sleeve: TCG Companion — Privacy Policy
 
-**Effective date:** November 24, 2026
+**Effective date:** November 25, 2026
 **App:** Sleeve: TCG Companion (Android, package `com.stevie.tcgcompanion`)
 **Developer:** Stevie D M Roberts III ("we", "us")
 **Privacy contact:** Stevie.sleevetcg@gmail.com
@@ -38,7 +38,7 @@ We can't see this information.
 These only happen when you tap them:
 
 - **Back up and export.** "Back up now" creates a file such as `Sleeve backup 2026-11-18.json`, containing your lists and settings. "Export lists" creates CSV, JSON, PDF or spreadsheet files. You decide where the file goes, using Android's share sheet, file picker or print service. Whoever receives it can read it.
-- **QR share codes.** A QR code holds the list's name, card numbers, counts and any prices you typed. It's shown on your screen for another phone to scan. Nothing is uploaded.
+- **QR share codes.** A QR code holds the list's name, card numbers or card IDs, counts and any prices you typed. It's shown on your screen for another phone to scan. Nothing is uploaded.
 - **Restore and import.** When you pick a file, Sleeve reads only that file.
 - **TCGplayer links.** Tapping 'View on TCGplayer' or 'Check Card Value' opens TCGplayer's website in your browser at that card's search or product page, so TCGplayer receives the card name or product number. TCGplayer's own privacy policy applies there.
 
