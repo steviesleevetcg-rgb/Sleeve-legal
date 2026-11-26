@@ -40,6 +40,7 @@ These only happen when you tap them:
 - **Back up and export.** "Back up now" creates a file such as `Sleeve backup 2026-11-18.json`, containing your lists and settings. "Export lists" creates CSV, JSON, PDF or spreadsheet files. You decide where the file goes, using Android's share sheet, file picker or print service. Whoever receives it can read it.
 - **QR share codes.** A QR code holds the list's name, card numbers or card IDs, counts and any prices you typed. It's shown on your screen for another phone to scan. Nothing is uploaded.
 - **Restore and import.** When you pick a file, Sleeve reads only that file.
+- **FaBrary links.** Tapping 'upload to Fabrary.net' opens FaBrary's website in your browser at its deck import page. The link includes your deck's card codes and any deck name or format, so FaBrary receives that information. Saving the deck on FaBrary may require a FaBrary account. FaBrary's own privacy policy applies there.
 - **TCGplayer links.** Tapping 'View on TCGplayer' or 'Check Card Value' opens TCGplayer's website in your browser at that card's search or product page, so TCGplayer receives the card name or product number. TCGplayer's own privacy policy applies there.
 
 ## 4. Third-party services the app connects to
