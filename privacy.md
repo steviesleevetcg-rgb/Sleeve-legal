@@ -1,7 +1,7 @@
 # Sleeve: TCG Companion — Privacy Policy
 
-**Effective date:** November 25, 2026
-**App:** Sleeve: TCG Companion (Android, package `com.stevie.tcgcompanion`)
+**Effective date:** November 26, 2026
+**App:** Sleeve: TCG Companion (Android, package `com.sleevetcg.app`)
 **Developer:** Stevie D M Roberts III ("we", "us")
 **Privacy contact:** Stevie.sleevetcg@gmail.com
 **Website:** https://steviesleevetcg-rgb.github.io/Sleeve-legal/
